@@ -83,6 +83,31 @@ def second_chapter():
     '''
     nltk.corpus.gutenberg.CorpusView()
 
+def third_chapter():
+    '''
+    处理原始文本
+
+    1.从网络下载文本：a.下载 b.word_tokenize[词向量化] c. nltk.Text(tokens:词列表)
+    2.处理html：BeautifulSoup(html).get_text(
+    3.处理搜索引擎的结果
+    4.RSS Feeds【feedparser.parse("http://languagelog.ldc.upenn.edu/nll/?feed=atom")】
+    5.本地文件：open('document.txt')
+    6.用户输入：input()
+
+    处理字符串的方法
+    字符串编码
+    正则表达式处理 word pattern： a.提取词re.findall() b.查找词干
+
+    规范化文本： a.词干 b.Lemmatization词形还原
+    nltk的正则表达式：nltk.regexp_tokenize(text, pattern)
+
+    分割：
+        句子的分割
+        词的分割
+
+    format：把list变成字符串的方法
+    :return:
+    '''
 
 def main():
     while True:
