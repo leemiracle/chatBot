@@ -108,6 +108,16 @@ def third_chapter():
     format：把list变成字符串的方法
     :return:
     '''
+    pass
+
+def fourth_chapter():
+    '''
+    结构化编程
+
+    变量作用范围：local global build-in
+    函数的使用： Documenting Functions， 高阶
+    :return:
+    '''
 
 def main():
     while True:
