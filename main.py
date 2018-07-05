@@ -83,6 +83,7 @@ def second_chapter():
     '''
     nltk.corpus.gutenberg.CorpusView()
 
+
 def third_chapter():
     '''
     处理原始文本
@@ -110,6 +111,7 @@ def third_chapter():
     '''
     pass
 
+
 def fourth_chapter():
     '''
     结构化编程
@@ -118,6 +120,54 @@ def fourth_chapter():
     函数的使用： Documenting Functions， 高阶
     :return:
     '''
+    pass
+
+
+def fifth_chapter():
+    '''
+    word分类以及标签化
+
+    读已经被标记过的语料
+    通用的词性标注集
+
+    Python字典：词性
+
+    自动标记
+        默认标记：tags = [tag for (word, tag) in brown.tagged_words(categories='news') （已经标记好的）
+        正则表达式tagger
+            >>> patterns = [
+            ...     (r'.*ing$', 'VBG'),               # gerunds
+            ...     (r'.*ed$', 'VBD'),                # simple past
+            ...     (r'.*es$', 'VBZ'),                # 3rd singular present
+            ...     (r'.*ould$', 'MD'),               # modals
+            ...     (r'.*\'s$', 'NN$'),               # possessive nouns
+            ...     (r'.*s$', 'NNS'),                 # plural nouns
+            ...     (r'^-?[0-9]+(.[0-9]+)?$', 'CD'),  # cardinal numbers
+            ...     (r'.*', 'NN')                     # nouns (default)
+            ... ]
+        Lookup Tagger：
+            likely_tags = dict((word, cfd[word].max()) for (word, _) in most_freq_words)
+            baseline_tagger = nltk.UnigramTagger(model=likely_tags)
+            baseline_tagger.evaluate(brown_tagged_sents)
+
+        N-Gram Tagging：
+            Unigram Tagging【nltk.UnigramTagger(brown_tagged_sents)】：分开training和testing
+            General N-Gram Tagging
+        联合taggers：
+        标注未知words
+
+        存储tagger：pickle.dump pickle.load
+
+        性能限制：
+
+        基于转换的标记
+
+        词的分类：形态、句法、语义、新词、语音标签集的形态学
+    :return:
+    '''
+    # text = word_tokenize("And now for something completely different")
+    # nltk.pos_tag(text) # 打tag
+    pass
 
 def main():
     while True:
