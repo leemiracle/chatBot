@@ -337,6 +337,18 @@ def eleventh_chapter():
     6.使用OLAC Metadata描述 语言资源【OLAC: Open Language Archives Community】
     :return:
     '''
+    pass
+
+
+def twelfth_chapter():
+    '''
+    语言学的挑战
+
+    1.作为语言来处理 vs 作为符号来处理
+    2.哲学分歧
+    3.nltk roadmap
+    :return:
+    '''
 
 
 def main():
