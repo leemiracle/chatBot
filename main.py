@@ -305,6 +305,38 @@ def tenth_chapter():
         话语处理
     :return:
     '''
+    pass
+
+
+def eleventh_chapter():
+    '''
+    管理语言数据
+    1.语料结构【实例】
+        TIMIT【设计特点】【基本数据类型】
+    2.语料的生命周期
+        语料的创建场景
+        质量控制
+        策划与进展
+    3.获取数据
+        web
+        字处理器文件中获取
+        表格和数据库
+        转换数据格式
+        决定要包含哪些注释层
+        标准工具
+        使用濒危语言时的特殊注意事项
+    4.处理xml
+        xml作为语言的结构
+        xml的角色
+        ElementTree接口
+        使用ElementTree接口访问Toolbox类的数据
+        实体Formatting
+    5.处理Toolbox的数据
+        添加一个字段给每个Entry
+        验证Toolbox的词汇
+    6.使用OLAC Metadata描述 语言资源【OLAC: Open Language Archives Community】
+    :return:
+    '''
 
 
 def main():
