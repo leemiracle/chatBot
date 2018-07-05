@@ -205,6 +205,33 @@ def six_chapter():
     语言模式建模
     :return:
     '''
+    pass
+
+def seventh_chapter():
+    '''
+    文本信息提取： 类似知识图谱
+
+    1.架构：文本-->语句分割-->tokenization-->part of speech tagging--> 实体检测--> 关系检测-->relations
+    2.chunking分块：
+        名词语句
+        tag pattern
+        正则表达式
+        文本语料库
+        Chinking：语法
+        表示 语句块：标签 vs 树
+    3.Chunkers：
+        读取IOB格式 和 CoNLL 2000语料库
+        基准
+        训练基于分类的Chunkers
+    4.语言结构的递归
+           Cascaded级联 Chunkers的网状结构
+           树状
+           树的遍历
+    5.命名实体的识别
+    6.关系提取
+
+    :return:
+    '''
 
 def main():
     while True:
