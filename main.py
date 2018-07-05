@@ -260,6 +260,26 @@ def eighth_chapter():
     '''
     pass
 
+
+def ninth_chapter():
+    '''
+    基于特征的语法
+    1.语法特征
+        句法协议
+        使用属性和约束
+        术语
+    2.处理特征结构： 共有的特征结构
+    3.扩展
+        次范畴
+        heads的重访问
+        辅助动词 和 Inversion
+        无限的依赖结构
+        德语的例子
+    :return:
+    '''
+    pass
+
+
 def main():
     while True:
         s = input("haha: ")
