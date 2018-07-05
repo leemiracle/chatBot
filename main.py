@@ -169,6 +169,43 @@ def fifth_chapter():
     # nltk.pos_tag(text) # 打tag
     pass
 
+def six_chapter():
+    '''
+    文本分类：常用的统计模型介绍，以及在文本处理上的应用
+    监督学习：
+        1.名字识别性别
+        2.特征选择
+        3.文档分类
+        4.词性标注
+        5.语境
+        6.Sequence序列 Classification
+    实例
+        7.语句分割
+        8.识别对话的Act Types
+        9.识别文本蕴涵Textual Entailment
+        10.提高样本集
+    Evaluation 评估：
+        1.测试集
+        2.精度
+        3.准确度和recall【召回率】
+        4.混淆矩阵
+        5.交叉验证
+    决策树：
+        1.熵和信息增益
+    朴素贝叶斯分类器
+        1.基础概率模型
+        2.Zero Counts and Smoothing平滑
+        3.Non-Binary Features
+        4.独立性
+        5.造成 Double-Counting
+    最大熵Classifiers：
+        1.最大熵模型
+        2.最大化熵
+        3.生成分类器 vs 条件分类器
+    语言模式建模
+    :return:
+    '''
+
 def main():
     while True:
         s = input("haha: ")
