@@ -232,6 +232,33 @@ def seventh_chapter():
 
     :return:
     '''
+    pass
+
+def eighth_chapter():
+    '''
+    分析句子结构
+
+    语法困境：
+        1.语言数据及其无限可能性
+        2.无处不在的歧义
+    什么时候使用语法：
+        1.n-grams
+    上下文free文法
+        2.自己的文法
+        3.句法结构中的递归
+    使用Context Free Grammar解析
+        1.递归下降 解析
+        2.Shift-Reduce 解析
+        3.Left-Corner 解析器
+        4.Well-Formed 子串表
+        5. Dependencies and Dependency 语法
+    语法扩展：
+        1. Treebanks 和 Grammars
+        2.歧义
+        3.加权语法
+    :return:
+    '''
+    pass
 
 def main():
     while True:
